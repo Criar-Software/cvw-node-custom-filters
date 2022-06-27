@@ -65,6 +65,10 @@ export class Interpreter implements IInterpreter {
 
   // }
 
+  sumTest(a: number, b: number): number {
+    return a + b
+  }
+
   getData(layout: Array<LayouItem>): Object[] {
     let itens = this.order.getDataByLayout(layout)
     // console.log(inspect(itens, false, null, true /* enable colors */))

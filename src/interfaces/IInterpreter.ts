@@ -1,6 +1,7 @@
 import LayouItem from "./LayoutItem";
 
 export interface IInterpreter {
+  sumTest: (a: number, b: number) => number;
   getData: (layout: Array<LayouItem>) => Object[];
   getJson: () => any;
   getAttributeRuleByExpression: (expression: string) => any;
