@@ -1,5 +1,5 @@
 import LayouItem from "./interfaces/LayoutItem"
-import Interpreter from "./Interpreter"
+import { Interpreter } from "./index"
 import Item from "./Item"
 
 export default class Order {
@@ -37,9 +37,9 @@ export default class Order {
 
   getDataByLayout(layout: Array<LayouItem>): Object[] {
     var data: Object[] = []
-    this.itens.map((value) =>{
+    this.itens.map((value) => {
 
-      let newProductData: {nItem: string, data: Object[]} = {
+      let newProductData: { nItem: string, data: Object[] } = {
         nItem: value.nItem,
         data: []
       }
@@ -47,7 +47,7 @@ export default class Order {
       layout.forEach(element => {
 
         let newExpression = ""
-        this.phrases.forEach( (phrase: {xmlKey: string, layoutValue: string } ) => {
+        this.phrases.forEach((phrase: { xmlKey: string, layoutValue: string }) => {
           if (new RegExp(phrase.layoutValue).test(element.expression)) {
             switch (phrase.layoutValue) {
               case 'ref_prod':
@@ -62,7 +62,7 @@ export default class Order {
               case 'infadprod':
                 newExpression = this.replaceAll(element.expression, phrase.layoutValue, value.infAdProd ? `'${value.infAdProd}'` : `''`)
                 break;
-            
+
               default:
                 break;
             }
@@ -70,7 +70,7 @@ export default class Order {
         })
 
         const interpreter = new Interpreter();
-        let newValue =  interpreter.getAttributeRuleByExpression(newExpression)
+        let newValue = interpreter.getAttributeRuleByExpression(newExpression)
 
         let newAttributeData = {
           attribute: element.name,
@@ -80,7 +80,7 @@ export default class Order {
         }
 
         newProductData.data.push(newAttributeData)
-        
+
       });
 
       data.push(newProductData)

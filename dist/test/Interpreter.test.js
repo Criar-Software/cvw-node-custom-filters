@@ -1,6 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // import path from "path";
-import { Interpreter } from "../index";
-
+var index_1 = require("../index");
 // test("Dever ler um xml e converter para um json!", () => {
 //   // given
 //   const layout = [
@@ -622,146 +623,125 @@ import { Interpreter } from "../index";
 //     }
 //   ])
 // })
-
-test("Deve retornar o cod. cor dos produtos!", () => {
-  // given
-  const expression = "If(Pos('BLUSA MM FEM (29,18%) HERING', 'FEM') > 0, 'F', If(Pos('BLUSA MM FEM (29,18%) HERING', 'MASC') > 0, 'M', ''))"
-  const interpreter = new Interpreter()
-  // when
-  const response = interpreter.getAttributeRuleByExpression(expression)
-  // then
-  expect(response).toBe('F')
-})
-
-test("Deve retornar o cod. cor dos produtos!", () => {
-  // given
-  const expression = "Trim( Mid('0241KKLEN/P', 5, Pos('0241KKLEN/P', '/') - 6 ) )"
-  const interpreter = new Interpreter()
-  // when
-  const response = interpreter.getAttributeRuleByExpression(expression)
-  // then
-  expect(response).toBe('KLEN')
-})
-
+test("Deve retornar o cod. cor dos produtos!", function () {
+    // given
+    var expression = "If(Pos('BLUSA MM FEM (29,18%) HERING', 'FEM') > 0, 'F', If(Pos('BLUSA MM FEM (29,18%) HERING', 'MASC') > 0, 'M', ''))";
+    var interpreter = new index_1.Interpreter();
+    // when
+    var response = interpreter.getAttributeRuleByExpression(expression);
+    // then
+    expect(response).toBe('F');
+});
+test("Deve retornar o cod. cor dos produtos!", function () {
+    // given
+    var expression = "Trim( Mid('0241KKLEN/P', 5, Pos('0241KKLEN/P', '/') - 6 ) )";
+    var interpreter = new index_1.Interpreter();
+    // when
+    var response = interpreter.getAttributeRuleByExpression(expression);
+    // then
+    expect(response).toBe('KLEN');
+});
 // Teste If
-test("Teste de função If", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função If", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste and
-test("Teste de função and", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função and", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste or
-test("Teste de função or", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função or", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste Trim
-test("Teste de função Trim", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função Trim", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste Len
-test("Teste de função Len", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função Len", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste Mid
-test("Teste de função Mid", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função Mid", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste f_mid
-test("Teste de função f_mid", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função f_mid", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste Left
-test("Teste de função Left", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função Left", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste Right
-test("Teste de função Right", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função Right", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste Pos
-test("Teste de função Pos", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função Pos", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste f_pos
-test("Teste de função f_pos", () => {
-  const expression = "f_pos ('7897897897891', '89', 2)"
-  const interpreter = new Interpreter()
-  const response = interpreter.getAttributeRuleByExpression(expression)
-  expect(response).toBe(5)
-})
-
+test("Teste de função f_pos", function () {
+    var expression = "f_pos ('7897897897891', '89', 2)";
+    var interpreter = new index_1.Interpreter();
+    var response = interpreter.getAttributeRuleByExpression(expression);
+    expect(response).toBe(5);
+});
 // Teste LastPos
-test("Teste de função LastPos", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função LastPos", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste Upper
-test("Teste de função Upper", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função Upper", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste Lower
-test("Teste de função Lower", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função Lower", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste Case
-test("Teste de função Case", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função Case", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste f_global_replace
-test("Teste de função f_global_replace", () => {
-  // const expression = ""
-  // const interpreter = new Interpreter()
-  // const response = interpreter.getAttributeRuleByExpression(expression)
-})
-
+test("Teste de função f_global_replace", function () {
+    // const expression = ""
+    // const interpreter = new Interpreter()
+    // const response = interpreter.getAttributeRuleByExpression(expression)
+});
 // Teste f_count_string
-test("Teste de função f_count_string", () => {
-  const expression = "f_count_string ('7897897897891', '89')"
-  const interpreter = new Interpreter()
-  const response = interpreter.getAttributeRuleByExpression(expression)
-  expect(response).toBe(4)
-})
-
-
+test("Teste de função f_count_string", function () {
+    var expression = "f_count_string ('7897897897891', '89')";
+    var interpreter = new index_1.Interpreter();
+    var response = interpreter.getAttributeRuleByExpression(expression);
+    expect(response).toBe(4);
+});
