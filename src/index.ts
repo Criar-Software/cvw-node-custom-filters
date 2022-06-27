@@ -1,5 +1,5 @@
 
 import Interpreter from "./Interpreter";
-export {
+module.exports = {
   Interpreter
 }
