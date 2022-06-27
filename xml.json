@@ -1,0 +1,4301 @@
+{
+  "nfeProc": {
+    "xmlns": [
+      "http://www.portalfiscal.inf.br/nfe"
+    ],
+    "versao": [
+      "4.00"
+    ],
+    "NFe": [
+      {
+        "xmlns": [
+          "http://www.portalfiscal.inf.br/nfe"
+        ],
+        "infNFe": [
+          {
+            "versao": [
+              "4.00"
+            ],
+            "Id": [
+              "NFe52210878876950012340551780015685341701156860"
+            ],
+            "ide": [
+              {
+                "cUF": [
+                  "52"
+                ],
+                "cNF": [
+                  "70115686"
+                ],
+                "natOp": [
+                  "6105 VENDA PROD ESTAB N DEVA POR ELE TRANSITAR 6106 VEN"
+                ],
+                "mod": [
+                  "55"
+                ],
+                "serie": [
+                  "178"
+                ],
+                "nNF": [
+                  "1568534"
+                ],
+                "dhEmi": [
+                  "2021-08-12T16:37:28-03:00"
+                ],
+                "dhSaiEnt": [
+                  "2021-08-12T16:52:28-03:00"
+                ],
+                "tpNF": [
+                  "1"
+                ],
+                "idDest": [
+                  "2"
+                ],
+                "cMunFG": [
+                  "5220108"
+                ],
+                "tpImp": [
+                  "2"
+                ],
+                "tpEmis": [
+                  "1"
+                ],
+                "cDV": [
+                  "0"
+                ],
+                "tpAmb": [
+                  "1"
+                ],
+                "finNFe": [
+                  "1"
+                ],
+                "indFinal": [
+                  "0"
+                ],
+                "indPres": [
+                  "9"
+                ],
+                "indIntermed": [
+                  "0"
+                ],
+                "procEmi": [
+                  "0"
+                ],
+                "verProc": [
+                  "009"
+                ]
+              }
+            ],
+            "emit": [
+              {
+                "CNPJ": [
+                  "78876950012340"
+                ],
+                "xNome": [
+                  "CIA. HERING"
+                ],
+                "xFant": [
+                  "Sao Luis de Montes Belos"
+                ],
+                "enderEmit": [
+                  {
+                    "xLgr": [
+                      "RODOVIA GO 060 KM 122"
+                    ],
+                    "nro": [
+                      "1001"
+                    ],
+                    "xBairro": [
+                      "ZONA RURAL"
+                    ],
+                    "cMun": [
+                      "5220108"
+                    ],
+                    "xMun": [
+                      "SAO LUIS DE MONTES BELOS"
+                    ],
+                    "UF": [
+                      "GO"
+                    ],
+                    "CEP": [
+                      "76100000"
+                    ],
+                    "cPais": [
+                      "1058"
+                    ],
+                    "xPais": [
+                      "Brasil"
+                    ],
+                    "fone": [
+                      "06433167103"
+                    ]
+                  }
+                ],
+                "IE": [
+                  "106065424"
+                ],
+                "IM": [
+                  "00021857545"
+                ],
+                "CRT": [
+                  "3"
+                ]
+              }
+            ],
+            "dest": [
+              {
+                "CNPJ": [
+                  "12362252000140"
+                ],
+                "xNome": [
+                  "ANF - COMERCIO DE ROUPAS E ACESSORI"
+                ],
+                "enderDest": [
+                  {
+                    "xLgr": [
+                      "R PADRE GURGEL"
+                    ],
+                    "nro": [
+                      "18"
+                    ],
+                    "xCpl": [
+                      "LETRA F"
+                    ],
+                    "xBairro": [
+                      "CENTRO"
+                    ],
+                    "cMun": [
+                      "3118007"
+                    ],
+                    "xMun": [
+                      "CONGONHAS"
+                    ],
+                    "UF": [
+                      "MG"
+                    ],
+                    "CEP": [
+                      "36415000"
+                    ],
+                    "cPais": [
+                      "1058"
+                    ],
+                    "xPais": [
+                      "Brasil"
+                    ],
+                    "fone": [
+                      "03137312750"
+                    ]
+                  }
+                ],
+                "indIEDest": [
+                  "1"
+                ],
+                "IE": [
+                  "0016434170084"
+                ],
+                "email": [
+                  "anfpontoh@gmail.com"
+                ]
+              }
+            ],
+            "autXML": [
+              {
+                "CPF": [
+                  "00564239933"
+                ]
+              },
+              {
+                "CNPJ": [
+                  "48740351001218"
+                ]
+              }
+            ],
+            "det": [
+              {
+                "nItem": [
+                  "1"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "0241KKLEN/P"
+                    ],
+                    "cEAN": [
+                      "7909678872083"
+                    ],
+                    "xProd": [
+                      "BLUSA MM FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "61061000"
+                    ],
+                    "CFOP": [
+                      "6105"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "23.8200000000"
+                    ],
+                    "vProd": [
+                      "23.82"
+                    ],
+                    "cEANTrib": [
+                      "7909678872083"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "23.8200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9475046"
+                    ],
+                    "nItemPed": [
+                      "000500"
+                    ],
+                    "nFCI": [
+                      "AC29F686-11CD-4C54-8C09-8617B7B16C72"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "5"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "23.82"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "2.86"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.59"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "2"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "0241KKLEN/M"
+                    ],
+                    "cEAN": [
+                      "7909678872090"
+                    ],
+                    "xProd": [
+                      "BLUSA MM FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "61061000"
+                    ],
+                    "CFOP": [
+                      "6105"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "23.8200000000"
+                    ],
+                    "vProd": [
+                      "23.82"
+                    ],
+                    "cEANTrib": [
+                      "7909678872090"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "23.8200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9475046"
+                    ],
+                    "nItemPed": [
+                      "000500"
+                    ],
+                    "nFCI": [
+                      "5FE8B1C5-E0BD-423E-B63C-4F0E4953B009"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "5"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "23.82"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "2.86"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.59"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "3"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "0241YVCEN/P"
+                    ],
+                    "cEAN": [
+                      "7909678872229"
+                    ],
+                    "xProd": [
+                      "BLUSA MM FEM (35,08%) HERING"
+                    ],
+                    "NCM": [
+                      "61061000"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "21.8300000000"
+                    ],
+                    "vProd": [
+                      "21.83"
+                    ],
+                    "cEANTrib": [
+                      "7909678872229"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "21.8300000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9486956"
+                    ],
+                    "nItemPed": [
+                      "000300"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "2"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "21.83"
+                            ],
+                            "pICMS": [
+                              "4.0000"
+                            ],
+                            "vICMS": [
+                              "0.87"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.59"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "4"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "0241YVCEN/M"
+                    ],
+                    "cEAN": [
+                      "7909678872236"
+                    ],
+                    "xProd": [
+                      "BLUSA MM FEM (35,08%) HERING"
+                    ],
+                    "NCM": [
+                      "61061000"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "2.0000"
+                    ],
+                    "vUnCom": [
+                      "21.8300000000"
+                    ],
+                    "vProd": [
+                      "43.66"
+                    ],
+                    "cEANTrib": [
+                      "7909678872236"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "2.0000"
+                    ],
+                    "vUnTrib": [
+                      "21.8300000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9486956"
+                    ],
+                    "nItemPed": [
+                      "000300"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "2"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "43.66"
+                            ],
+                            "pICMS": [
+                              "4.0000"
+                            ],
+                            "vICMS": [
+                              "1.75"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "41.91"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.69"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "41.91"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "3.19"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "5"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "0241YVCEN/G"
+                    ],
+                    "cEAN": [
+                      "7909678872243"
+                    ],
+                    "xProd": [
+                      "BLUSA MM FEM (35,08%) HERING"
+                    ],
+                    "NCM": [
+                      "61061000"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "21.8300000000"
+                    ],
+                    "vProd": [
+                      "21.83"
+                    ],
+                    "cEANTrib": [
+                      "7909678872243"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "21.8300000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9486956"
+                    ],
+                    "nItemPed": [
+                      "000300"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "2"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "21.83"
+                            ],
+                            "pICMS": [
+                              "4.0000"
+                            ],
+                            "vICMS": [
+                              "0.87"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.59"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "6"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "0241YVCEN/XXG"
+                    ],
+                    "cEAN": [
+                      "7909678872267"
+                    ],
+                    "xProd": [
+                      "BLUSA MM FEM (35,08%) HERING"
+                    ],
+                    "NCM": [
+                      "61061000"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "21.8300000000"
+                    ],
+                    "vProd": [
+                      "21.83"
+                    ],
+                    "cEANTrib": [
+                      "7909678872267"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "21.8300000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9486956"
+                    ],
+                    "nItemPed": [
+                      "000300"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "2"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "21.83"
+                            ],
+                            "pICMS": [
+                              "4.0000"
+                            ],
+                            "vICMS": [
+                              "0.87"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.59"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "7"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "HB7CWHPEN/038"
+                    ],
+                    "cEAN": [
+                      "7909678870744"
+                    ],
+                    "xProd": [
+                      "SHORTS FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046200"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "70.0200000000"
+                    ],
+                    "vProd": [
+                      "70.02"
+                    ],
+                    "cEANTrib": [
+                      "7909678870744"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "70.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9489230"
+                    ],
+                    "nItemPed": [
+                      "000200"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "70.02"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "8.40"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "61.62"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "1.02"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "61.62"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "4.68"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "8"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "HB7CWHPEN/040"
+                    ],
+                    "cEAN": [
+                      "7909678870751"
+                    ],
+                    "xProd": [
+                      "SHORTS FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046200"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "70.0200000000"
+                    ],
+                    "vProd": [
+                      "70.02"
+                    ],
+                    "cEANTrib": [
+                      "7909678870751"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "70.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9489230"
+                    ],
+                    "nItemPed": [
+                      "000200"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "70.02"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "8.40"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "61.62"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "1.02"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "61.62"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "4.68"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "9"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "HB7CWHPEN/042"
+                    ],
+                    "cEAN": [
+                      "7909678870768"
+                    ],
+                    "xProd": [
+                      "SHORTS FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046200"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "70.0200000000"
+                    ],
+                    "vProd": [
+                      "70.02"
+                    ],
+                    "cEANTrib": [
+                      "7909678870768"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "70.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9489230"
+                    ],
+                    "nItemPed": [
+                      "000200"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "70.02"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "8.40"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "61.62"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "1.02"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "61.62"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "4.68"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "10"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "HB7CWHPEN/044"
+                    ],
+                    "cEAN": [
+                      "7909678870775"
+                    ],
+                    "xProd": [
+                      "SHORTS FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046200"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "70.0200000000"
+                    ],
+                    "vProd": [
+                      "70.02"
+                    ],
+                    "cEANTrib": [
+                      "7909678870775"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "70.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9489230"
+                    ],
+                    "nItemPed": [
+                      "000200"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "70.02"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "8.40"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "61.62"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "1.02"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "61.62"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "4.68"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "11"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "H9A8N10EN/P"
+                    ],
+                    "cEAN": [
+                      "7909678142025"
+                    ],
+                    "xProd": [
+                      "CALCA FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046900"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "2.0000"
+                    ],
+                    "vUnCom": [
+                      "80.0200000000"
+                    ],
+                    "vProd": [
+                      "160.04"
+                    ],
+                    "cEANTrib": [
+                      "7909678142025"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "2.0000"
+                    ],
+                    "vUnTrib": [
+                      "80.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9489338"
+                    ],
+                    "nItemPed": [
+                      "000300"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "160.04"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "19.20"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "140.84"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "2.32"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "140.84"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "10.70"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "12"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "H9A8N10EN/M"
+                    ],
+                    "cEAN": [
+                      "7909678142032"
+                    ],
+                    "xProd": [
+                      "CALCA FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046900"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "2.0000"
+                    ],
+                    "vUnCom": [
+                      "80.0200000000"
+                    ],
+                    "vProd": [
+                      "160.04"
+                    ],
+                    "cEANTrib": [
+                      "7909678142032"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "2.0000"
+                    ],
+                    "vUnTrib": [
+                      "80.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9489338"
+                    ],
+                    "nItemPed": [
+                      "000300"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "160.04"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "19.20"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "140.84"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "2.32"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "140.84"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "10.70"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "13"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "H9A8N10EN/G"
+                    ],
+                    "cEAN": [
+                      "7909678142049"
+                    ],
+                    "xProd": [
+                      "CALCA FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046900"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "2.0000"
+                    ],
+                    "vUnCom": [
+                      "80.0200000000"
+                    ],
+                    "vProd": [
+                      "160.04"
+                    ],
+                    "cEANTrib": [
+                      "7909678142049"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "2.0000"
+                    ],
+                    "vUnTrib": [
+                      "80.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9489338"
+                    ],
+                    "nItemPed": [
+                      "000300"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "160.04"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "19.20"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "140.84"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "2.32"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "140.84"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "10.70"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "14"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "H9A8N10EN/XG"
+                    ],
+                    "cEAN": [
+                      "7909678142056"
+                    ],
+                    "xProd": [
+                      "CALCA FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046900"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "2.0000"
+                    ],
+                    "vUnCom": [
+                      "80.0200000000"
+                    ],
+                    "vProd": [
+                      "160.04"
+                    ],
+                    "cEANTrib": [
+                      "7909678142056"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "2.0000"
+                    ],
+                    "vUnTrib": [
+                      "80.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9489338"
+                    ],
+                    "nItemPed": [
+                      "000300"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "160.04"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "19.20"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "140.84"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "2.32"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "140.84"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "10.70"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "15"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "K0MQWHPSN/044"
+                    ],
+                    "cEAN": [
+                      "7909678905897"
+                    ],
+                    "xProd": [
+                      "SHORTS FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046200"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "50.0200000000"
+                    ],
+                    "vProd": [
+                      "50.02"
+                    ],
+                    "cEANTrib": [
+                      "7909678905897"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "50.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9494324"
+                    ],
+                    "nItemPed": [
+                      "002000"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "50.02"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "6.00"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.73"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "3.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "16"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "K0MQWHPSN/042"
+                    ],
+                    "cEAN": [
+                      "7909678905880"
+                    ],
+                    "xProd": [
+                      "SHORTS FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046200"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "50.0200000000"
+                    ],
+                    "vProd": [
+                      "50.02"
+                    ],
+                    "cEANTrib": [
+                      "7909678905880"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "50.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9494324"
+                    ],
+                    "nItemPed": [
+                      "002000"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "50.02"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "6.00"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.73"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "3.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "17"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "K0MQWHPSN/040"
+                    ],
+                    "cEAN": [
+                      "7909678905873"
+                    ],
+                    "xProd": [
+                      "SHORTS FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046200"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "50.0200000000"
+                    ],
+                    "vProd": [
+                      "50.02"
+                    ],
+                    "cEANTrib": [
+                      "7909678905873"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "50.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9494324"
+                    ],
+                    "nItemPed": [
+                      "002000"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "50.02"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "6.00"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.73"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "3.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "18"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "K0MQWHPSN/038"
+                    ],
+                    "cEAN": [
+                      "7909678905866"
+                    ],
+                    "xProd": [
+                      "SHORTS FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046200"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "50.0200000000"
+                    ],
+                    "vProd": [
+                      "50.02"
+                    ],
+                    "cEANTrib": [
+                      "7909678905866"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "50.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9494324"
+                    ],
+                    "nItemPed": [
+                      "002000"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "50.02"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "6.00"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.73"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "3.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "19"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "K0MQWHPSN/036"
+                    ],
+                    "cEAN": [
+                      "7909678905859"
+                    ],
+                    "xProd": [
+                      "SHORTS FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "62046200"
+                    ],
+                    "CFOP": [
+                      "6106"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "50.0200000000"
+                    ],
+                    "vProd": [
+                      "50.02"
+                    ],
+                    "cEANTrib": [
+                      "7909678905859"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "50.0200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9494324"
+                    ],
+                    "nItemPed": [
+                      "002000"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "0"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "50.02"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "6.00"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "53"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.73"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "44.02"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "3.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nItem": [
+                  "20"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "0201WHREN/P"
+                    ],
+                    "cEAN": [
+                      "7909678878108"
+                    ],
+                    "xProd": [
+                      "CAMISETA MM MASC (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "61091000"
+                    ],
+                    "CFOP": [
+                      "6105"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "23.8200000000"
+                    ],
+                    "vProd": [
+                      "23.82"
+                    ],
+                    "cEANTrib": [
+                      "7909678878108"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "23.8200000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9495621"
+                    ],
+                    "nItemPed": [
+                      "000200"
+                    ],
+                    "nFCI": [
+                      "31060214-23BF-4092-B1F9-41CCF3A23B22"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "5"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "23.82"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "2.86"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.35"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "20.96"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.59"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "21"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "0201WHREN/G"
+                    ],
+                    "cEAN": [
+                      "7909678878122"
+                    ],
+                    "xProd": [
+                      "CAMISETA MM MASC (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "61091000"
+                    ],
+                    "CFOP": [
+                      "6105"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "2.0000"
+                    ],
+                    "vUnCom": [
+                      "23.8100000000"
+                    ],
+                    "vProd": [
+                      "47.62"
+                    ],
+                    "cEANTrib": [
+                      "7909678878122"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "2.0000"
+                    ],
+                    "vUnTrib": [
+                      "23.8100000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9495621"
+                    ],
+                    "nItemPed": [
+                      "000200"
+                    ],
+                    "nFCI": [
+                      "31E59C22-9C8C-462E-8DCB-94A3D87F8778"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "5"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "47.62"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "5.71"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "41.91"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.69"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "41.91"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "3.18"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "22"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "015MAXTEN/P"
+                    ],
+                    "cEAN": [
+                      "7909678988692"
+                    ],
+                    "xProd": [
+                      "CAMISETA REGATA MASC (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "61091000"
+                    ],
+                    "CFOP": [
+                      "6105"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "18.1800000000"
+                    ],
+                    "vProd": [
+                      "18.18"
+                    ],
+                    "cEANTrib": [
+                      "7909678988692"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "18.1800000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9555172"
+                    ],
+                    "nItemPed": [
+                      "000100"
+                    ],
+                    "nFCI": [
+                      "DC5F7813-FE9D-4BB8-A06F-A56F3D24D357"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "5"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "18.18"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "2.18"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "16.00"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.26"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "16.00"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.22"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "23"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "015MAXTEN/M"
+                    ],
+                    "cEAN": [
+                      "7909678988708"
+                    ],
+                    "xProd": [
+                      "CAMISETA REGATA MASC (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "61091000"
+                    ],
+                    "CFOP": [
+                      "6105"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "18.1800000000"
+                    ],
+                    "vProd": [
+                      "18.18"
+                    ],
+                    "cEANTrib": [
+                      "7909678988708"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "18.1800000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9555172"
+                    ],
+                    "nItemPed": [
+                      "000100"
+                    ],
+                    "nFCI": [
+                      "BDC084F0-0156-42B5-A7A1-3A0C64721A66"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "5"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "18.18"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "2.18"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "16.00"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.26"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "16.00"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.22"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "24"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "015MAXTEN/G"
+                    ],
+                    "cEAN": [
+                      "7909678988715"
+                    ],
+                    "xProd": [
+                      "CAMISETA REGATA MASC (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "61091000"
+                    ],
+                    "CFOP": [
+                      "6105"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "18.1800000000"
+                    ],
+                    "vProd": [
+                      "18.18"
+                    ],
+                    "cEANTrib": [
+                      "7909678988715"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "18.1800000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9555172"
+                    ],
+                    "nItemPed": [
+                      "000100"
+                    ],
+                    "nFCI": [
+                      "325BAC04-96A4-42F6-8E1D-713D2135DE38"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "5"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "18.18"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "2.18"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "16.00"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.26"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "16.00"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.22"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "25"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "015MAXTEN/XG"
+                    ],
+                    "cEAN": [
+                      "7909678988722"
+                    ],
+                    "xProd": [
+                      "CAMISETA REGATA MASC (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "61091000"
+                    ],
+                    "CFOP": [
+                      "6105"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "18.1800000000"
+                    ],
+                    "vProd": [
+                      "18.18"
+                    ],
+                    "cEANTrib": [
+                      "7909678988722"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "18.1800000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9555172"
+                    ],
+                    "nItemPed": [
+                      "000100"
+                    ],
+                    "nFCI": [
+                      "428C4966-1299-458F-AA87-B6BF89EA2480"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "5"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "18.18"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "2.18"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "16.00"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "0.26"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "16.00"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "1.22"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              },
+              {
+                "nItem": [
+                  "26"
+                ],
+                "prod": [
+                  {
+                    "cProd": [
+                      "7CJUKMMEN/XG"
+                    ],
+                    "cEAN": [
+                      "7909678954482"
+                    ],
+                    "xProd": [
+                      "ROBE ML FEM (29,18%) HERING"
+                    ],
+                    "NCM": [
+                      "61089200"
+                    ],
+                    "CFOP": [
+                      "6105"
+                    ],
+                    "uCom": [
+                      "PC"
+                    ],
+                    "qCom": [
+                      "1.0000"
+                    ],
+                    "vUnCom": [
+                      "72.7400000000"
+                    ],
+                    "vProd": [
+                      "72.74"
+                    ],
+                    "cEANTrib": [
+                      "7909678954482"
+                    ],
+                    "uTrib": [
+                      "PC"
+                    ],
+                    "qTrib": [
+                      "1.0000"
+                    ],
+                    "vUnTrib": [
+                      "72.7400000000"
+                    ],
+                    "indTot": [
+                      "1"
+                    ],
+                    "xPed": [
+                      "9721883"
+                    ],
+                    "nItemPed": [
+                      "000200"
+                    ],
+                    "nFCI": [
+                      "4D108CC4-9978-4BDC-9767-86A84AE3F181"
+                    ]
+                  }
+                ],
+                "imposto": [
+                  {
+                    "ICMS": [
+                      {
+                        "ICMS00": [
+                          {
+                            "orig": [
+                              "5"
+                            ],
+                            "CST": [
+                              "00"
+                            ],
+                            "modBC": [
+                              "3"
+                            ],
+                            "vBC": [
+                              "72.74"
+                            ],
+                            "pICMS": [
+                              "12.0000"
+                            ],
+                            "vICMS": [
+                              "8.73"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IPI": [
+                      {
+                        "cEnq": [
+                          "999"
+                        ],
+                        "IPINT": [
+                          {
+                            "CST": [
+                              "51"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "PIS": [
+                      {
+                        "PISAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "64.01"
+                            ],
+                            "pPIS": [
+                              "1.6500"
+                            ],
+                            "vPIS": [
+                              "1.06"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "COFINS": [
+                      {
+                        "COFINSAliq": [
+                          {
+                            "CST": [
+                              "01"
+                            ],
+                            "vBC": [
+                              "64.01"
+                            ],
+                            "pCOFINS": [
+                              "7.6000"
+                            ],
+                            "vCOFINS": [
+                              "4.86"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infAdProd": [
+                  "Operacao tributada com IPI aliquota zero nos termos do Decreto 7.212/10."
+                ]
+              }
+            ],
+            "total": [
+              {
+                "ICMSTot": [
+                  {
+                    "vBC": [
+                      "1544.03"
+                    ],
+                    "vICMS": [
+                      "176.50"
+                    ],
+                    "vICMSDeson": [
+                      "0.00"
+                    ],
+                    "vFCP": [
+                      "0.00"
+                    ],
+                    "vBCST": [
+                      "0.00"
+                    ],
+                    "vST": [
+                      "0.00"
+                    ],
+                    "vFCPST": [
+                      "0.00"
+                    ],
+                    "vFCPSTRet": [
+                      "0.00"
+                    ],
+                    "vProd": [
+                      "1544.03"
+                    ],
+                    "vFrete": [
+                      "0.00"
+                    ],
+                    "vSeg": [
+                      "0.00"
+                    ],
+                    "vDesc": [
+                      "0.00"
+                    ],
+                    "vII": [
+                      "0.00"
+                    ],
+                    "vIPI": [
+                      "0.00"
+                    ],
+                    "vIPIDevol": [
+                      "0.00"
+                    ],
+                    "vPIS": [
+                      "22.59"
+                    ],
+                    "vCOFINS": [
+                      "103.92"
+                    ],
+                    "vOutro": [
+                      "0.00"
+                    ],
+                    "vNF": [
+                      "1544.03"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "transp": [
+              {
+                "modFrete": [
+                  "0"
+                ],
+                "transporta": [
+                  {
+                    "CNPJ": [
+                      "48740351001218"
+                    ],
+                    "xNome": [
+                      "BRASPRESS TRANSPORTES URGENTES LTDA"
+                    ],
+                    "IE": [
+                      "103952543"
+                    ],
+                    "xEnder": [
+                      "R DOS IPES, 140, QD.R3 LTS."
+                    ],
+                    "xMun": [
+                      "GOIANIA"
+                    ],
+                    "UF": [
+                      "GO"
+                    ]
+                  }
+                ],
+                "vol": [
+                  {
+                    "qVol": [
+                      "1"
+                    ],
+                    "esp": [
+                      "CAIXA H03"
+                    ],
+                    "marca": [
+                      "\"LETR.\""
+                    ],
+                    "nVol": [
+                      "36191182/101177965"
+                    ],
+                    "pesoL": [
+                      "6.413"
+                    ],
+                    "pesoB": [
+                      "7.450"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "cobr": [
+              {
+                "fat": [
+                  {
+                    "nFat": [
+                      "0001568534"
+                    ],
+                    "vOrig": [
+                      "1544.03"
+                    ],
+                    "vDesc": [
+                      "0.00"
+                    ],
+                    "vLiq": [
+                      "1544.03"
+                    ]
+                  }
+                ],
+                "dup": [
+                  {
+                    "nDup": [
+                      "001"
+                    ],
+                    "dVenc": [
+                      "2021-10-13"
+                    ],
+                    "vDup": [
+                      "308.81"
+                    ]
+                  },
+                  {
+                    "nDup": [
+                      "002"
+                    ],
+                    "dVenc": [
+                      "2021-10-26"
+                    ],
+                    "vDup": [
+                      "308.81"
+                    ]
+                  },
+                  {
+                    "nDup": [
+                      "003"
+                    ],
+                    "dVenc": [
+                      "2021-11-09"
+                    ],
+                    "vDup": [
+                      "308.81"
+                    ]
+                  },
+                  {
+                    "nDup": [
+                      "004"
+                    ],
+                    "dVenc": [
+                      "2021-11-23"
+                    ],
+                    "vDup": [
+                      "308.81"
+                    ]
+                  },
+                  {
+                    "nDup": [
+                      "005"
+                    ],
+                    "dVenc": [
+                      "2021-12-07"
+                    ],
+                    "vDup": [
+                      "308.79"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "pag": [
+              {
+                "detPag": [
+                  {
+                    "indPag": [
+                      "1"
+                    ],
+                    "tPag": [
+                      "15"
+                    ],
+                    "vPag": [
+                      "1544.03"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "infAdic": [
+              {
+                "infCpl": [
+                  "TRANSPORTADORA 48.740.351/001218 BRASPRESS COD CRED. 70556 | TRANSPORTADORA ENTREGA BRASPRESS | CNPJ 48.740.351/001218 | I.E. 103952543 | TELEPEDIDOS DDG 0800 473111 | DESCONTO INCONDICIONAL REF.DIFERENCA DA ALIQUOTA DO ICMS INCLUIDA NOS DESCONTOS 14,58 , 6,82 | PCS 32,000 | TP 0821 | EMB 08/2021 | PER 2 | DIA 12 | CP P019 | CLI.SAP 29645 | OPERACAO TRIBUTADA COM IPI ALIQUOTA ZERO NOS TERMOS DO DECRETO 7.212/10 | MERCADORIAS SERAO RETIRADAS DIRETAMENTE DO DEPOSITO FECHADO, SITUADO A RODOVIA BR 153, N 3.469 FAZENDA BARREIRO DE CIMA BAIRRO ZONA URBANA ANAPOLIS/GO. CNPJ 78.876.950/011025 E IE 10.539.7741. | | REMESSA 801900509 1 CX HU 78433"
+                ]
+              }
+            ],
+            "infRespTec": [
+              {
+                "CNPJ": [
+                  "78876950012340"
+                ],
+                "xContato": [
+                  "FERNANDA CARVALHO"
+                ],
+                "email": [
+                  "fernanda.carvalho@ciahering.com.br"
+                ],
+                "fone": [
+                  "00004733213594"
+                ],
+                "idCSRT": [
+                  "00"
+                ],
+                "hashCSRT": [
+                  "WEUUVxfqO5VS3jku4cYBa6t8RME="
+                ]
+              }
+            ]
+          }
+        ],
+        "Signature": [
+          {
+            "xmlns": [
+              "http://www.w3.org/2000/09/xmldsig#"
+            ],
+            "SignedInfo": [
+              {
+                "CanonicalizationMethod": [
+                  {
+                    "Algorithm": [
+                      "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                    ]
+                  }
+                ],
+                "SignatureMethod": [
+                  {
+                    "Algorithm": [
+                      "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                    ]
+                  }
+                ],
+                "Reference": [
+                  {
+                    "URI": [
+                      "#NFe52210878876950012340551780015685341701156860"
+                    ],
+                    "Transforms": [
+                      {
+                        "Transform": [
+                          {
+                            "Algorithm": [
+                              "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                            ]
+                          },
+                          {
+                            "Algorithm": [
+                              "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "DigestMethod": [
+                      {
+                        "Algorithm": [
+                          "http://www.w3.org/2000/09/xmldsig#sha1"
+                        ]
+                      }
+                    ],
+                    "DigestValue": [
+                      "VCGe8g/9huTsd4pj1uGe5goFUSw="
+                    ]
+                  }
+                ]
+              }
+            ],
+            "SignatureValue": [
+              "i2bKYX7m0+KSQy10ZnB9vdQMy4sG3ggJEY7XwbPphL8i6rQox4kPAXe6nALBTBkBFr8CVr1An2gy\nA1oJPQnYYlw8v6FUwzmUTVixAvJii4VHPDeYAybD2l8t0Jx80O4brCf3TI0BL2VoOrGra8+aAO3n\nWmkST4MaVdm/+Ldxlqa2wlGGc+2/l6lGnsBycCqPAKFfEVYH8H1Xk/T7uGlfEXfgrHy8lE2SV8Be\nI9OXD2b2bCtPy5CWIqnUOaVm87sJRp12TF3oQiJ5W8BvKaDBTZqO4EH1LD21f7kW61n85+H2Jc0g\nIuN1fYoDzIq1NqXxZcAeOMnGqVjYU2uLrbcBxQ=="
+            ],
+            "KeyInfo": [
+              {
+                "X509Data": [
+                  {
+                    "X509Certificate": [
+                      "MIIHLDCCBRSgAwIBAgIITQEgEhQ7uQQwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR\nBgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M\nVVRJIE11bHRpcGxhIHY1MB4XDTIwMTIxNDE0NTYwMFoXDTIxMTIxNDE0NTYwMFowgdExCzAJBgNV\nBAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJTQzERMA8GA1UEBxMIQmx1bWVu\nYXUxHjAcBgNVBAsTFUFDIFNPTFVUSSBNdWx0aXBsYSB2NTEXMBUGA1UECxMOMTA1MzQ5ODcwMDAx\nODgxEzARBgNVBAsTClByZXNlbmNpYWwxGjAYBgNVBAsTEUNlcnRpZmljYWRvIFBKIEExMSMwIQYD\nVQQDExpDSUEuIEhFUklORzo3ODg3Njk1MDAwMDE3MTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC\nAQoCggEBAKWIwM96e9mXCz7yVSoLdfhCAc54sTRRq0lyzPKdSWb6QZK5hI3oMj3WUaaFwWB57Bh7\nEA8JktNBewZ6L49uWovNWSvbsZZQ71BwDOdEZ60IK6ZVJ5QayDk0ejjIjfXgfA7TPsuW2BIVPtTn\npP76UlN+Z392pC4m7TQ2QvsNbQdnMfTtyONqrliKLEV0m3O+fCBT/XsmBGBZpxECT2OTBk9l0SPp\ntvLVlHRoKyRt1wMaLt6/imPmrfYNi6CUWcKkExw0FdEchhWxdG85/+VvrSn9IYuraGlmaalu1BEM\nGEaGuf6bH5B6iPOSPT0rSGBK7y4j87v42aiFBHARJwlsDBMCAwEAAaOCAn0wggJ5MAkGA1UdEwQC\nMAAwHwYDVR0jBBgwFoAUxVLtJYAJ35yCyJ9Hxt20XzHdubEwVAYIKwYBBQUHAQEESDBGMEQGCCsG\nAQUFBzAChjhodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxh\nLXY1LnA3YjCBuAYDVR0RBIGwMIGtgR5naW92YW5pLmplc3VzQGNpYWhlcmluZy5jb20uYnKgHQYF\nYEwBAwKgFBMSTUFSQ0lFTCBFREVSIENPU1RBoBkGBWBMAQMDoBATDjc4ODc2OTUwMDAwMTcxoDgG\nBWBMAQMEoC8TLTIzMDcxOTY5NTUxNjg3MDE5NDkwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAX\nBgVgTAEDB6AOEwwwMDAwMDAwMDAwMDAwXQYDVR0gBFYwVDBSBgZgTAECASYwSDBGBggrBgEFBQcC\nARY6aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvZG9jcy9kcGMtYWMtc29sdXRpLW11bHRpcGxh\nLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwgYwGA1UdHwSBhDCBgTA+oDygOoY4\naHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvbGNyL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5jcmww\nP6A9oDuGOWh0dHA6Ly9jY2QyLmFjc29sdXRpLmNvbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxh\nLXY1LmNybDAdBgNVHQ4EFgQUBsgH4pYV2vDLK/IbqiGl9wVYAS8wDgYDVR0PAQH/BAQDAgXgMA0G\nCSqGSIb3DQEBCwUAA4ICAQBWAqPBJqQI2n6sKureRc7phopwouCdI8zF8X0gu6tXwZnE+RHR9C8v\nvbD8j7n9OQsjcJtcNHG22g3rk9tLa0oP6ZL4kbdgI/xye0z4Gb5BjVwDLXCzHj4R/1bDUym+3oDw\nq8L8+PwvyuDNncOKw2xwOtIdcVygxTT7k3auLH2XjfokDW/1JhO/cz6dwWnoKQC4sZaRLjJWIWRK\n3uMHr84aXAw2EuaSLii6iA6OBCQCztx1CLaTBpYIa1g1rl/NZYirONqIP8gGVA9epVeiElAYJrYC\nmRyuucdB4RNpCUDOlmmfZAgABDWTzfW4AUc2WSKL3yLmDmATLbnFG4ISBL0X2+67w+htmsd3U767\ndUGs41CcaLMJocSM3uh79ha+z40IBYdFES5FXsf6KJstqK1Yeggh5WuqQDC8/ojoG4Nh+/b6tmgh\nd6JKbWpnJsnLqpSb7fBsLfINxiKsREgeRMq8eeCx2LVH71I6Ye6JTRVhxS1narL3EivrhQqBCSMb\n2k43QuC+yq635PR3waqLZS9+TUXKNnu9mF8PBo+4ugOqLFnazqgXqrzDkNzak++1hQobjhjBEn8N\nJ/B9+zvpjB9lwBSxZskL/G2aVAdycoRP2u9VqErxAfDUqpWzfcT7jScYEcuXr/bgubeHhvjeiftI\nR8m2tBlErMV/4bs2/E1gnQ=="
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "protNFe": [
+      {
+        "xmlns": [
+          "http://www.portalfiscal.inf.br/nfe"
+        ],
+        "versao": [
+          "4.00"
+        ],
+        "infProt": [
+          {
+            "tpAmb": [
+              "1"
+            ],
+            "verAplic": [
+              "GO4.0"
+            ],
+            "chNFe": [
+              "52210878876950012340551780015685341701156860"
+            ],
+            "dhRecbto": [
+              "2021-08-12T17:09:17-03:00"
+            ],
+            "nProt": [
+              "152214305671022"
+            ],
+            "digVal": [
+              "VCGe8g/9huTsd4pj1uGe5goFUSw="
+            ],
+            "cStat": [
+              "100"
+            ],
+            "xMotivo": [
+              "Autorizado o uso da NF-e"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
