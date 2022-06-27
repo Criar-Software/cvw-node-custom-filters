@@ -1,6 +1,6 @@
 
 
-<h1 align="center">Cvw Interpretador</h1>
+<h1 align="center">CVW Node Custom Filters</h1>
 
 
 <!-- Status -->
