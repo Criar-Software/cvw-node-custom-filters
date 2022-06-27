@@ -56,6 +56,9 @@ var Interpreter = /** @class */ (function () {
     //     this.json = result
     //   })
     // }
+    Interpreter.prototype.sumTest = function (a, b) {
+        return a + b;
+    };
     Interpreter.prototype.getData = function (layout) {
         var itens = this.order.getDataByLayout(layout);
         // console.log(inspect(itens, false, null, true /* enable colors */))

@@ -11,6 +11,7 @@ export declare class Interpreter implements IInterpreter {
     }[];
     order: Order;
     constructor();
+    sumTest(a: number, b: number): number;
     getData(layout: Array<LayouItem>): Object[];
     getJson(): {};
     getAttributeRuleByExpression(expression: string): any;
