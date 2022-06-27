@@ -3,8 +3,9 @@
 import Order from './Order'
 // import Item from './Item'
 import LayouItem from './interfaces/LayoutItem'
+import { IInterpreter } from './interfaces/IInterpreter'
 
-export default class Interpreter {
+export default class Interpreter implements IInterpreter {
   json: {}
   data: {}
   words = ['If', 'and', 'or', 'Trim', 'Len', 'Mid', 'f_mid', 'Left', 'Right', 'Pos', 'f_pos', 'LastPos', 'Upper', 'Lower', 'Case', 'f_global_replace', 'f_count_string', 'When', 'Then', 'Else']
@@ -61,10 +62,10 @@ export default class Interpreter {
 
   //     this.json = result
   //   })
-        
+
   // }
 
-  getData( layout: Array<LayouItem> ) {
+  getData(layout: Array<LayouItem>): Object[] {
     let itens = this.order.getDataByLayout(layout)
     // console.log(inspect(itens, false, null, true /* enable colors */))
     return itens
@@ -82,7 +83,7 @@ export default class Interpreter {
   readExpression(expression: string): string {
 
     this.words.forEach((word: string | RegExp) => {
-      if (new RegExp(word).test(expression)){
+      if (new RegExp(word).test(expression)) {
         switch (word) {
           case 'If':
             expression = this.replaceAll(expression, 'If', 'this.If')
@@ -135,7 +136,7 @@ export default class Interpreter {
           case 'Case':
             expression = this.replaceAll(expression, 'Case', 'this.Case')
             break
-          
+
           case 'When':
             expression = this.replaceAll(expression, 'When', '')
             break
@@ -174,7 +175,7 @@ export default class Interpreter {
   }
 
   If(expression: boolean, ifTrue: string | CallableFunction, ifFalse: string | CallableFunction): any {
-    if ( expression ) {
+    if (expression) {
       return ifTrue
     } else {
       return ifFalse
@@ -189,11 +190,11 @@ export default class Interpreter {
     return str.length
   }
 
-  Mid(str: string, from: number, length?: number | undefined ):string {
+  Mid(str: string, from: number, length?: number | undefined): string {
     return str.substr(from, length)
   }
 
-  f_mid(str: string, from: number, length: number ): string {
+  f_mid(str: string, from: number, length: number): string {
     return str.substring(from, length)
   }
 
@@ -205,19 +206,19 @@ export default class Interpreter {
     return str.substring(qtd, str.length)
   }
 
-  Pos(str: string, searchString:string, position?: number | undefined ): number {
+  Pos(str: string, searchString: string, position?: number | undefined): number {
     return str.indexOf(searchString, position) + 1
   }
 
-  f_pos(str: string, searchString:string, occurrence: number ): number {
+  f_pos(str: string, searchString: string, occurrence: number): number {
     let pos = str.indexOf(searchString)
     for (let index = 1; index < occurrence; index++) {
-      pos = str.indexOf(searchString, pos+1)
+      pos = str.indexOf(searchString, pos + 1)
     }
     return pos + searchString.length - 1
   }
 
-  LastPos(str: string, searchString:string): number {
+  LastPos(str: string, searchString: string): number {
     return str.lastIndexOf(searchString) + 1
   }
 
@@ -229,7 +230,7 @@ export default class Interpreter {
     return str.toLowerCase();
   }
 
-  Case (expression: string): string {
+  Case(expression: string): string {
     const exp = expression.split('When', 1)
     const exp1: string = exp[0]!;
     const newExp = `if (${eval(this.readExpression(exp1))}) ${exp[1]}`

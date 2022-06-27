@@ -1,6 +1,6 @@
 {
   "name": "cvw-interpretador",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
@@ -10,9 +10,17 @@
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts",
     "test": "tsc && jest .dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleeixoj/cvw-interpreter.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleeixoj/cvw-interpreter/issues"
+  },
+  "homepage": "https://github.com/aleeixoj/cvw-interpreter#readme",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/node": "^16.9.1",
