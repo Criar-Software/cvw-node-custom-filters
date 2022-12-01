@@ -28,6 +28,7 @@ export declare class Interpreter implements IInterpreter {
     LastPos(str: string, searchString: string): number;
     Upper(str: string): string;
     Lower(str: string): string;
+    Long(str: string): number;
     Case(expression: string): string;
     f_global_replace(str: string, searchString: string, replaceString: string): string;
     f_count_string(str: string, searchString: string): number;

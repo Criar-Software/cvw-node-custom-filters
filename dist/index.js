@@ -9,7 +9,7 @@ exports.Interpreter = void 0;
 var Order_1 = __importDefault(require("./Order"));
 var Interpreter = /** @class */ (function () {
     function Interpreter() {
-        this.words = ['If', 'and', 'or', 'Trim', 'Len', 'Mid', 'f_mid', 'Left', 'Right', 'Pos', 'f_pos', 'LastPos', 'Upper', 'Lower', 'Case', 'f_global_replace', 'f_count_string', 'When', 'Then', 'Else'];
+        this.words = ['If', 'Long', 'and', 'or', 'Trim', 'Len', 'Mid', 'f_mid', 'Left', 'Right', 'Pos', 'f_pos', 'LastPos', 'Upper', 'Lower', 'Case', 'f_global_replace', 'f_count_string', 'When', 'Then', 'Else'];
         this.phrases = [
             {
                 xmlKey: 'cProd',
@@ -136,6 +136,9 @@ var Interpreter = /** @class */ (function () {
                     case 'f_count_string':
                         expression = _this.replaceAll(expression, 'or', '||');
                         break;
+                    case 'Long':
+                        expression = _this.replaceAll(expression, 'Long', 'this.Long');
+                        break;
                     default:
                         break;
                 }
@@ -187,6 +190,10 @@ var Interpreter = /** @class */ (function () {
     };
     Interpreter.prototype.Lower = function (str) {
         return str.toLowerCase();
+    };
+    Interpreter.prototype.Long = function (str) {
+        var toRtn = Number(str);
+        return toRtn;
     };
     Interpreter.prototype.Case = function (expression) {
         var exp = expression.split('When', 1);
