@@ -8,7 +8,7 @@ import { IInterpreter } from './interfaces/IInterpreter'
 export class Interpreter implements IInterpreter {
   json: {}
   data: {}
-  words = ['If', 'and', 'or', 'Trim', 'Len', 'Mid', 'f_mid', 'Left', 'Right', 'Pos', 'f_pos', 'LastPos', 'Upper', 'Lower', 'Case', 'f_global_replace', 'f_count_string', 'When', 'Then', 'Else']
+  words = ['If', 'Long', 'and', 'or', 'Trim', 'Len', 'Mid', 'f_mid', 'Left', 'Right', 'Pos', 'f_pos', 'LastPos', 'Upper', 'Lower', 'Case', 'f_global_replace', 'f_count_string', 'When', 'Then', 'Else']
   phrases = [
     {
       xmlKey: 'cProd',
@@ -168,7 +168,9 @@ export class Interpreter implements IInterpreter {
           case 'f_count_string':
             expression = this.replaceAll(expression, 'or', '||')
             break
-
+          case 'Long':
+            expression = this.replaceAll(expression, 'Long', 'this.Long')
+            break
           default:
             break;
         }
@@ -232,6 +234,11 @@ export class Interpreter implements IInterpreter {
 
   Lower(str: string): string {
     return str.toLowerCase();
+  }
+
+  Long(str: string): number {
+    const toRtn = Number(str);
+    return toRtn
   }
 
   Case(expression: string): string {
