@@ -1,5 +1,5 @@
 {
-  "name": "cvw-interpretador",
+  "name": "cvw-node-custom-filters",
   "version": "1.0.6",
   "description": "",
   "main": "dist/index.js",

@@ -237,7 +237,7 @@ export class Interpreter implements IInterpreter {
   }
 
   Long(str: string): number {
-    const toRtn = Number(str);
+    const toRtn = parseInt(str, 11);
     return toRtn
   }
 
