@@ -1,6 +1,6 @@
 {
   "name": "cvw-node-custom-filters",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/aleeixoj/cvw-interpreter#readme",
   "devDependencies": {
     "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.191",
     "@types/node": "^16.9.1",
     "@types/xml2js": "^0.4.9",
     "jest": "^27.2.0",
@@ -31,6 +32,7 @@
     "typescript": "^4.4.3"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "timers": "^0.1.1",
     "user": "^0.0.0",
     "xml2js": "^0.4.23"

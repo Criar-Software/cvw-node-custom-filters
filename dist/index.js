@@ -7,6 +7,7 @@ exports.Interpreter = void 0;
 // import xml2js from 'xml2js'
 // import fs from 'fs'
 var Order_1 = __importDefault(require("./Order"));
+var lodash_1 = __importDefault(require("lodash"));
 var Interpreter = /** @class */ (function () {
     function Interpreter() {
         this.words = ['If', 'Long', 'and', 'or', 'Trim', 'Len', 'Mid', 'f_mid', 'Left', 'Right', 'Pos', 'f_pos', 'LastPos', 'Upper', 'Lower', 'Case', 'f_global_replace', 'f_count_string', 'When', 'Then', 'Else'];
@@ -192,8 +193,13 @@ var Interpreter = /** @class */ (function () {
         return str.toLowerCase();
     };
     Interpreter.prototype.Long = function (str) {
-        var toRtn = parseInt(str, 11);
-        return toRtn;
+        var toNumber = Number(str);
+        if (!lodash_1.default.isNaN(toNumber)) {
+            return toNumber;
+        }
+        else {
+            return str;
+        }
     };
     Interpreter.prototype.Case = function (expression) {
         var exp = expression.split('When', 1);

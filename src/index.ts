@@ -4,6 +4,7 @@ import Order from './Order'
 // import Item from './Item'
 import LayouItem from './interfaces/LayoutItem'
 import { IInterpreter } from './interfaces/IInterpreter'
+import _ from 'lodash'
 
 export class Interpreter implements IInterpreter {
   json: {}
@@ -236,9 +237,13 @@ export class Interpreter implements IInterpreter {
     return str.toLowerCase();
   }
 
-  Long(str: string): number {
-    const toRtn = parseInt(str, 11);
-    return toRtn
+  Long(str: string): number | string {
+    const toNumber = Number(str)
+    if (!_.isNaN(toNumber)) {
+      return toNumber
+    } else {
+      return str
+    }
   }
 
   Case(expression: string): string {
