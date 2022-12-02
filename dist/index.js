@@ -192,7 +192,7 @@ var Interpreter = /** @class */ (function () {
         return str.toLowerCase();
     };
     Interpreter.prototype.Long = function (str) {
-        var toRtn = Number(str);
+        var toRtn = parseInt(str, 11);
         return toRtn;
     };
     Interpreter.prototype.Case = function (expression) {
