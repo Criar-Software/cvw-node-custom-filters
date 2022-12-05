@@ -198,7 +198,11 @@ export class Interpreter implements IInterpreter {
   }
 
   Mid(str: string, from: number, length?: number | undefined): string {
-    return str.substr(from, length)
+    if (!length) {
+      return str.substr(from);
+    } else {
+      return str.substr(from - 1, length + 1);
+    }
   }
 
   f_mid(str: string, from: number, length: number): string {
@@ -214,13 +218,13 @@ export class Interpreter implements IInterpreter {
   }
 
   Pos(str: string, searchString: string, position?: number | undefined): number {
-    return str.indexOf(searchString, position) + 1
+    return str.indexOf(searchString, position)
   }
 
   f_pos(str: string, searchString: string, occurrence: number): number {
     let pos = str.indexOf(searchString)
     for (let index = 1; index < occurrence; index++) {
-      pos = str.indexOf(searchString, pos + 1)
+      pos = str.indexOf(searchString, pos)
     }
     return pos + searchString.length - 1
   }
