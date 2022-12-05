@@ -162,7 +162,12 @@ var Interpreter = /** @class */ (function () {
         return str.length;
     };
     Interpreter.prototype.Mid = function (str, from, length) {
-        return str.substr(from, length);
+        if (!length) {
+            return str.substr(from);
+        }
+        else {
+            return str.substr(from - 1, length + 1);
+        }
     };
     Interpreter.prototype.f_mid = function (str, from, length) {
         return str.substring(from, length);
@@ -174,12 +179,12 @@ var Interpreter = /** @class */ (function () {
         return str.substring(qtd, str.length);
     };
     Interpreter.prototype.Pos = function (str, searchString, position) {
-        return str.indexOf(searchString, position) + 1;
+        return str.indexOf(searchString, position);
     };
     Interpreter.prototype.f_pos = function (str, searchString, occurrence) {
         var pos = str.indexOf(searchString);
         for (var index = 1; index < occurrence; index++) {
-            pos = str.indexOf(searchString, pos + 1);
+            pos = str.indexOf(searchString, pos);
         }
         return pos + searchString.length - 1;
     };
