@@ -193,7 +193,7 @@ export class Interpreter implements IInterpreter {
     return str.trim()
   }
 
-  Lem(str: string): number {
+  Len(str: string): number {
     return str.length
   }
 
