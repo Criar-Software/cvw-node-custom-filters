@@ -158,7 +158,7 @@ var Interpreter = /** @class */ (function () {
     Interpreter.prototype.Trim = function (str) {
         return str.trim();
     };
-    Interpreter.prototype.Lem = function (str) {
+    Interpreter.prototype.Len = function (str) {
         return str.length;
     };
     Interpreter.prototype.Mid = function (str, from, length) {

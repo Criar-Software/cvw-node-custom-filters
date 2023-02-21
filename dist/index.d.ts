@@ -18,7 +18,7 @@ export declare class Interpreter implements IInterpreter {
     readExpression(expression: string): string;
     If(expression: boolean, ifTrue: string | CallableFunction, ifFalse: string | CallableFunction): any;
     Trim(str: string): string;
-    Lem(str: string): number;
+    Len(str: string): number;
     Mid(str: string, from: number, length?: number | undefined): string;
     f_mid(str: string, from: number, length: number): string;
     Left(str: string, qtd: number): string;
